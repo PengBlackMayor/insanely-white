@@ -31,7 +31,7 @@ const policies = [
   {
     title: "Before Your Appointment",
     description:
-      "Brush your teeth before your session and avoid eating or drinking anything that may stain your teeth immediately before treatment.",
+      "We recommend eating before your appointment, to avoid staining your teeth right after your treatment.",
   },
 ];
 

@@ -6,11 +6,7 @@ import {
 
 export default function Services() {
   const services = [
-    {
-      icon: Sparkles,
-      title: "In-Office Whitening",
-      desc: "Fast and effective professional whitening treatment.",
-    },
+
     {
       icon: Smile,
       title: "Custom Whitening",
@@ -36,7 +32,7 @@ export default function Services() {
           Professional Treatments
         </h2>
 
-        <div className="grid grid-colos-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className=" grid-colos-1 md:grid-cols-2 ">
 
           {services.map((service, index) => {
             const Icon = service.icon;

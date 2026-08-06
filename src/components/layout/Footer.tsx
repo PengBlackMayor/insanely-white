@@ -24,7 +24,7 @@ export default function Footer() {
           </h2>
 
           <p className="mt-5 leading-7 text-gray-400">
-            Professional mobile teeth whitening services that bring
+            Mobile teeth whitening services that bring
             brighter smiles directly to your home, office, or preferred
             location.
           </p>

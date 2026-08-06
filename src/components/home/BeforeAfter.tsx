@@ -73,7 +73,7 @@ export default function Gallery() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-gray-400 sm:text-lg">
-            See real client transformations from our professional mobile teeth
+            See real client transformations from our mobile teeth
             whitening treatments.
           </p>
         </motion.div>

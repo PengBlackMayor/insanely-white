@@ -86,7 +86,7 @@ export default function Appointment() {
         >
           <Image
             src="/images/appointment/appointment.jpg"
-            alt="Professional Teeth Whitening"
+            alt="Mobile Teeth Whitening"
             width={700}
             height={850}
             className="h-auto w-full rounded-3xl object-cover shadow-2xl"

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Insanely White | Mobile Teeth Whitening",
   description:
-    "Professional mobile teeth whitening services. We'll Make Your Teeth White Again.",
+    "Mobile teeth whitening services. We'll Make Your Teeth White Again.",
 };
 
 export default function RootLayout({

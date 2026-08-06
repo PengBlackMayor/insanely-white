@@ -12,7 +12,7 @@ const services = [
   {
     icon: <Smile className="h-8 w-8 text-yellow-400 sm:h-10 sm:w-10" />,
     title: "Mobile Teeth Whitening",
-    desc: "Professional whitening treatments at your home or office.",
+    desc: "Mobile Teeth whitening treatments at your home or office.",
   },
   {
     icon: <Sparkles className="h-8 w-8 text-yellow-400 sm:h-10 sm:w-10" />,
@@ -52,14 +52,14 @@ export default function About() {
           </p>
 
           <h2 className="mb-6 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
-            Professional Mobile{" "}
+             Mobile{" "}
             <span className="text-yellow-400">
               Teeth Whitening
             </span>
           </h2>
 
           <p className="mx-auto max-w-2xl text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
-            Insanely White provides safe, professional mobile teeth
+            Insanely White provides safe, mobile teeth
             whitening treatments that come directly to your home,
             office, or preferred location. We help you achieve a
             brighter smile with convenient appointments and premium

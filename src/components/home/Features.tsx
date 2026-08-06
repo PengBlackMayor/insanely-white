@@ -5,7 +5,7 @@ export default function Features() {
     {
       icon: ShieldCheck,
       title: "Safe & Effective",
-      text: "Professional whitening with safe products.",
+      text: "Mobile teeth whitening with safe products.",
     },
     {
       icon: Sparkles,
@@ -19,7 +19,7 @@ export default function Features() {
     },
     {
       icon: Award,
-      title: "Professional Care",
+      title: "Quality Care",
       text: "Experienced whitening specialist.",
     },
   ];

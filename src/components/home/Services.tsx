@@ -29,7 +29,7 @@ export default function Services() {
         </p>
 
         <h2 className="text-center text-5xl font-bold mt-4 mb-16 text-black">
-          Professional Treatments
+          Quality Treatments
         </h2>
 
         <div className=" grid-colos-1 md:grid-cols-2 ">

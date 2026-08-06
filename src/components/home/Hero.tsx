@@ -28,7 +28,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 max-w-lg text-base text-gray-300 sm:text-lg">
-            Professional mobile teeth whitening treatments that come directly
+            Mobile teeth whitening treatments that come directly
             to your home, office, or preferred location.
           </p>
 

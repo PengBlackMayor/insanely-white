@@ -5,35 +5,35 @@ import { motion } from "framer-motion";
 
 const galleryItems = [
   {
-    image: "/images/gallery/before&after1new.jpg",
+    image: "/images/gallery/before&afternew1.jpg",
     alt: "Before&after",
     label: "BEFORE & AFTER",
     bg: "bg-red-600",
     text: "text-white",
   },
   {
-    image: "/images/gallery/before&after2new.jpg",
+    image: "/images/gallery/before&afternew2.jpg",
     alt: "Before&after",
     label: "BEFORE & AFTER",
     bg: "bg-yellow-500",
     text: "text-black",
   },
   {
-    image: "/images/gallery/before&after3new.jpg",
+    image: "/images/gallery/before&afternew3.jpg",
     alt: "Before & After",
     label: "BEFORE & AFTER",
     bg: "bg-black",
     text: "text-white",
   },
   {
-    image: "/images/gallery/before&after4new.jpg",
+    image: "/images/gallery/before&afternew4.jpg",
     alt: "Before&after",
     label: "BEFORE & AFTER",
     bg: "bg-red-600",
     text: "text-white",
   },
   {
-    image: "/images/gallery/afternew1.jpg",
+    image: "/images/gallery/before&afternew5.jpg",
     alt: "After",
     label: "AFTER",
     bg: "bg-yellow-500",

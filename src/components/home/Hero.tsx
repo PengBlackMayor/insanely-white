@@ -28,8 +28,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 max-w-lg text-base text-gray-300 sm:text-lg">
-            Mobile teeth whitening treatments that come directly
-            to your home, office, or preferred location.
+            Mobile Teeth Whitening Spa Location Available. Services are performed at our spa location. The exact address will be disclosed after your appointment is confirmed.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -70,3 +69,4 @@ export default function Hero() {
     </section>
   );
 }
+

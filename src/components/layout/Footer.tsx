@@ -24,9 +24,9 @@ export default function Footer() {
           </h2>
 
           <p className="mt-5 leading-7 text-gray-400">
-            Mobile teeth whitening services that bring
-            brighter smiles directly to your home, office, or preferred
-            location.
+            Insanely White provides professional teeth whitening services at
+            our private spa location. The exact address is disclosed after
+            your appointment is confirmed.
           </p>
         </div>
 
@@ -65,6 +65,7 @@ export default function Footer() {
           <div className="space-y-4 text-gray-400">
             <div className="flex items-start gap-3">
               <Phone size={18} className="mt-1 text-red-500" />
+
               <a
                 href="tel:3479304340"
                 className="transition hover:text-yellow-400"
@@ -75,6 +76,7 @@ export default function Footer() {
 
             <div className="flex items-start gap-3">
               <Mail size={18} className="mt-1 text-red-500" />
+
               <a
                 href="mailto:TeethInsanelyWhite@gmail.com"
                 className="transition hover:text-yellow-400"
@@ -85,7 +87,8 @@ export default function Footer() {
 
             <div className="flex items-start gap-3">
               <MapPin size={18} className="mt-1 text-red-500" />
-              <span>Mobile Teeth Whitening Service</span>
+
+              <span>Teeth Whitening Spa Location</span>
             </div>
           </div>
         </div>
@@ -98,29 +101,45 @@ export default function Footer() {
 
           <div className="space-y-4 text-gray-400">
             <div className="flex items-start gap-3">
-              <Clock size={18} className="mt-1 shrink-0 text-red-500" />
+              <Clock
+                size={18}
+                className="mt-1 shrink-0 text-red-500"
+              />
 
               <div className="space-y-1 text-sm">
                 <p>
-                  <span className="font-semibold text-white">Sun:</span> Closed
+                  <span className="font-semibold text-white">Sun:</span>{" "}
+                  Closed
                 </p>
+
                 <p>
-                  <span className="font-semibold text-white">Mon:</span> Closed
+                  <span className="font-semibold text-white">Mon:</span>{" "}
+                  Closed
                 </p>
+
                 <p>
-                  <span className="font-semibold text-white">Tue:</span> 11:00 AM – 6:00 PM
+                  <span className="font-semibold text-white">Tue:</span>{" "}
+                  11:00 AM – 6:00 PM
                 </p>
+
                 <p>
-                  <span className="font-semibold text-white">Wed:</span> 11:00 AM – 6:00 PM
+                  <span className="font-semibold text-white">Wed:</span>{" "}
+                  11:00 AM – 6:00 PM
                 </p>
+
                 <p>
-                  <span className="font-semibold text-white">Thu:</span> 11:00 AM – 6:00 PM
+                  <span className="font-semibold text-white">Thu:</span>{" "}
+                  11:00 AM – 6:00 PM
                 </p>
+
                 <p>
-                  <span className="font-semibold text-white">Fri:</span> 11:00 AM – 8:00 PM
+                  <span className="font-semibold text-white">Fri:</span>{" "}
+                  11:00 AM – 8:00 PM
                 </p>
+
                 <p>
-                  <span className="font-semibold text-white">Sat:</span> 11:00 AM – 8:00 PM
+                  <span className="font-semibold text-white">Sat:</span>{" "}
+                  11:00 AM – 8:00 PM
                 </p>
 
                 <p className="pt-2 font-medium text-yellow-400">
@@ -129,6 +148,7 @@ export default function Footer() {
               </div>
             </div>
 
+            {/* Instagram */}
             <div className="pt-5">
               <p className="mb-3 font-medium text-white">
                 Follow Us @insanely_white_
@@ -147,6 +167,21 @@ export default function Footer() {
         </div>
       </motion.div>
 
+      {/* Spa Location Notice */}
+      <div className="border-t border-white/10">
+        <div className="mx-auto max-w-7xl px-6 py-8 text-center">
+          <h3 className="mb-3 text-xl font-semibold text-yellow-400">
+            Spa Location
+          </h3>
+
+          <p className="text-sm leading-6 text-gray-400">
+            Services are performed at our spa location. Address details are
+            disclosed after booking.
+          </p>
+        </div>
+      </div>
+
+      {/* Copyright */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

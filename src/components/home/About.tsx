@@ -12,7 +12,7 @@ const services = [
   {
     icon: <Smile className="h-8 w-8 text-yellow-400 sm:h-10 sm:w-10" />,
     title: "Mobile Teeth Whitening",
-    desc: "Mobile Teeth whitening treatments at your home or office.",
+    desc: "Mobile Teeth Whitening Spa Location Available. Services are performed at our spa location.",
   },
   {
     icon: <Sparkles className="h-8 w-8 text-yellow-400 sm:h-10 sm:w-10" />,
@@ -26,8 +26,8 @@ const services = [
   },
   {
     icon: <Car className="h-8 w-8 text-yellow-400 sm:h-10 sm:w-10" />,
-    title: "Home & Office Visits",
-    desc: "Convenient appointments wherever suits you best.",
+    title: "Spa Location",
+    desc: "Services are performed at our spa location. Address details are disclosed after booking.",
   },
 ];
 
@@ -59,11 +59,7 @@ export default function About() {
           </h2>
 
           <p className="mx-auto max-w-2xl text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
-            Insanely White provides safe, mobile teeth
-            whitening treatments that come directly to your home,
-            office, or preferred location. We help you achieve a
-            brighter smile with convenient appointments and premium
-            whitening products.
+            Insanely White provides safe, mobile teeth whitening services at our spa location. The exact address will be disclosed after your appointment is confirmed. We help you achieve a brighter smile with convenient appointments and premium whitening products.
           </p>
         </motion.div>
 
@@ -100,3 +96,8 @@ export default function About() {
     </section>
   );
 }
+
+
+
+
+
